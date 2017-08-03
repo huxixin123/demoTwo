@@ -1,0 +1,85 @@
+@import url(../fonts/iconfont.css);
+* {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+input {
+  outline: none;
+  border: 0; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 15px; }
+
+.wrap {
+  height: 100%;
+  width: 100%; }
+  .wrap .head {
+    padding: 0 10px;
+    height: .43rem;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+.meng {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  width: 100%; }
+  .meng .box {
+    height: 60%;
+    width: 80%;
+    background: #fff;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -40%;
+    margin-top: -30%; }
+  .meng .logo {
+    height: .3rem;
+    width: .9rem;
+    margin: 0 auto;
+    background: red;
+    margin-top: 15px; }
+  .meng .logo img {
+    height: 100%;
+    width: 100%;
+    background-size: cover; }
+  .meng .ce {
+    text-align: center;
+    font-size: .13rem;
+    margin-top: 10px; }
+  .meng .inputG {
+    margin: 20px 30px;
+    padding: 3px 0;
+    border-bottom: 1px solid #eee;
+    display: flex; }
+  .meng .opt {
+    padding-top: .3rem; }
+  .meng .phone {
+    height: .2rem;
+    width: .15rem; }
+  .meng .inputG input {
+    display: flex;
+    flex-grow: 1;
+    text-indent: 10px; }
+  .meng .number {
+    margin-left: 10%;
+    background: #45c186;
+    border-radius: 5px;
+    width: 80%;
+    padding: 7px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: .55rem;
+    color: #fff;
+    font-size: .14rem; }
+
+/*# sourceMappingURL=style.css.map */
